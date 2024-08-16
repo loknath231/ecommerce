@@ -8,7 +8,7 @@ const Cart = ({ cartItems }) => (
       <p>Your cart is empty</p>
     ) : (
       cartItems.map((item) => (
-        <div key={item.id} className="cart-item">
+        <div key={item.id} className="cart-item" >
           <h3>{item.name}</h3>
           <p>₹{item.price}</p>
           <p>Quantity: {item.quantity}</p>
